@@ -1,11 +1,13 @@
-### Anime Faces Generator
-[![](Image.gif)](https://www.kaggle.com/code/soroushesnaashari/anime-faces-generator-gan-using-tensorflow/output)
+## Anime Faces Generator
+[![](images/Image.gif)](https://www.kaggle.com/code/soroushesnaashari/anime-faces-generator-gan-using-tensorflow/output)
 
-## Overview
+### Overview
 
 This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) in TensorFlow/Keras to generate novel anime-style faces. By training on a curated dataset of ~21 k anime character portraits (cropped and resized to 64×64 px), the GAN learns to map a 100-dimensional latent vector to realistic-looking anime faces. The entire pipeline—from data ingestion through model definition, training, and image sampling—is contained in this repository.
 
-## Project Flow
+<br>
+
+### Project Flow
 
 1. **Data Preparation**  
    - Download anime face images (21 551 samples) from the “Anime Faces” dataset.  
@@ -35,7 +37,7 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
    - After every N epochs (e.g. 5), generate a 5×5 grid of new faces from fixed noise vectors.  
    - Plot and save loss curves for both generator and discriminator.
 
-## Key Features
+### Key Features
 
 - **Custom DCGAN Architecture**  
   Lightweight yet expressive convolutional generator and discriminator networks tailored for 64×64 anime faces.
@@ -52,17 +54,17 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 - **Checkpoints & Resume**  
   Save and load model weights to resume long-running training jobs.
 
-## Results
+### Results
 
 After 50 epochs of training:
 
 - The generator produces high-quality anime faces with coherent hair styles, facial features, and coloring.
 - Loss curves demonstrate stable adversarial training:  
   ![Loss Curves](./results/loss_curves.png)
-- Sample outputs (5×5 grid at epochs 5, 15, 25, 50):  
-  ![Samples @ Ep 5](./results/samples_epoch_5.png)  
-  ![Samples @ Ep 25](./results/samples_epoch_25.png)  
-  ![Samples @ Ep 50](./results/samples_epoch_50.png)
+- Sample outputs (5×5 grid at epochs 5, 15, 30):  
+  ![Samples @ Ep 5](images/epoch05.png)  
+  ![Samples @ Ep 15](images/epoch15.png)  
+  ![Samples @ Ep 30](images/epoch30.png)
 
 <br>
 
