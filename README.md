@@ -59,12 +59,11 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 After 50 epochs of training:
 
 - The generator produces high-quality anime faces with coherent hair styles, facial features, and coloring.
-- Loss curves demonstrate stable adversarial training:  
-  ![Loss Curves](./results/loss_curves.png)
 - Sample outputs (5×5 grid at epochs 5, 15, 30):  
   ![Samples @ Ep 5](images/epoch05.png)  
   ![Samples @ Ep 15](images/epoch15.png)  
   ![Samples @ Ep 30](images/epoch30.png)
+  -After 50 epoches the model generated some acceptable anime characters (bottom image) which can be improved a lot with some more profeesional GAN model and also with more epoches.
 
 <br>
 
