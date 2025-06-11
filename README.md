@@ -37,6 +37,8 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
    - After every N epochs (e.g. 5), generate a 5×5 grid of new faces from fixed noise vectors.  
    - Plot and save loss curves for both generator and discriminator.
 
+<br>
+
 ### Key Features
 
 - **Custom DCGAN Architecture**  
@@ -54,6 +56,8 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 - **Checkpoints & Resume**  
   Save and load model weights to resume long-running training jobs.
 
+<br>
+
 ### Results
 
 After 50 epochs of training:
@@ -64,6 +68,7 @@ After 50 epochs of training:
   ![Samples @ Ep 15](images/epoch15.png)  
   ![Samples @ Ep 30](images/epoch30.png)
   -After 50 epoches the model generated some acceptable anime characters (bottom image) which can be improved a lot with some more profeesional GAN model and also with more epoches.
+  ![Fresh image](images/fresh.png)
 
 <br>
 
