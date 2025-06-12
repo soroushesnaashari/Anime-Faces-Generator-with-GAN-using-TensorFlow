@@ -1,5 +1,7 @@
 ## Anime Faces Generator
-<p style="text-align:center;">[![](images/Image.gif)](https://www.kaggle.com/code/soroushesnaashari/anime-faces-generator-gan-using-tensorflow/output)</p>
+<div align="center">
+[![](images/Image.gif)](https://www.kaggle.com/code/soroushesnaashari/anime-faces-generator-gan-using-tensorflow/output)
+</div>
 
 ### Overview
 
