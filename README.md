@@ -3,7 +3,7 @@
 
 ### Overview
 
-This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) in TensorFlow/Keras to generate novel anime-style faces. By training on a curated dataset of ~21 k anime character portraits (cropped and resized to 64×64 px), the GAN learns to map a 100-dimensional latent vector to realistic-looking anime faces. The entire pipeline—from data ingestion through model definition, training, and image sampling—is contained in this repository.
+This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) in TensorFlow/Keras to generate anime-style faces. By training on a curated dataset of ~21 k anime character portraits (cropped and resized to 64×64 px), the GAN learns to map a 100-dimensional latent vector to realistic-looking anime faces. The entire pipeline, from data ingestion through model definition, training, and image sampling—is contained in this repository.
 
 <br>
 
@@ -67,7 +67,7 @@ After 50 epochs of training:
   ![Samples @ Ep 5](images/epoch05.png)  
   ![Samples @ Ep 15](images/epoch15.png)  
   ![Samples @ Ep 30](images/epoch30.png)
-  -After 50 epoches the model generated some acceptable anime characters (bottom image) which can be improved a lot with some more profeesional GAN model and also with more epoches.
+- After 50 epoches the model generated some acceptable anime characters (bottom image) which can be improved a lot with some more profeesional GAN model and also with more epoches.
   ![Fresh image](images/fresh.png)
 
 <br>
