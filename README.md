@@ -1,4 +1,4 @@
-## Anime Faces Generator
+## Anime Faces Generator with GAN using TensorFlow
 [![](images/Image.gif)](https://www.kaggle.com/code/soroushesnaashari/anime-faces-generator-gan-using-tensorflow/output)
 
 ### Overview
